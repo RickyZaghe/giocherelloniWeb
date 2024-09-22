@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giocherelloni League</title>
+</head>
+<body style="background-color: rgb(74, 131, 255);margin: 0; padding: 0;">
+    <div style="display: flex; flex-direction: row; align-items: flex-start; padding-top: 25px; background-color: rgb(145, 180, 255);">
+        <div style="flex-grow: 1;padding-left: 70px;">
+            <a href="#"><img src="C:/Users/ricky/Desktop/Giocherelloni Web/GLLogos/exaltedLogo.jpg" alt="Exalted Logo" width="100" height="100" style="padding-left: 150px; padding-bottom: 25px;"></a>
+        </div>
+        
+        <div style="flex-grow: 1;">
+            <a href="#"><img src="C:/Users/ricky/Desktop/Giocherelloni Web/GLLogos/rettilianiLogo.jpg" alt="Rettiliani Logo" width="100" height="100"></a>
+        </div>
+        
+        <div style="flex-grow: 1; position: relative;">
+            <a href="#"><img src="C:/Users/ricky/Desktop/Giocherelloni Web/GLLogos/giocherellonileagueLogo.jpg" alt="Giocherelloni League Logo" width="200" height="200" style="padding-top: 20px;"></a>
+        </div>
+        
+        <div style="flex-grow: 1;">
+            <a href="#"><img src="C:/Users/ricky/Desktop/Giocherelloni Web/GLLogos/goldenballLogo.jpg" alt="Golden Ball Logo" width="100" height="100"></a>
+        </div>
+        
+        <div style="flex-grow: 1;">
+            <a href="#"><img src="C:/Users/ricky/Desktop/Giocherelloni Web/GLLogos/thepopesLogo.jpg" alt="The Popes Logo" width="100" height="100"></a>
+        </div>
+    </div>
 
+    <h1 style="text-align: center;font-size: 50px;color: rgb(255, 230, 0);">GIOCHERELLONI LEAGUE</h1>
+
+    <div style="display: flex; flex-direction: row; align-items: flex-start; background-color: rgb(145, 180, 255);font-size: 20px;">
+        <div style="flex-grow: 1;padding-left: 70px;border: solid;border-width: 3px;">
+            <a href="#">Storia</a>
+        </div>
+
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">   <!--Giocatori-->
+            <a href="#">I Giocherelloni</a>
+        </div>
+
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">
+            <a href="#">Regolamento</a>
+        </div>
+        
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">
+            <a href="#">News</a>
+        </div>
+        
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">
+            <a href="#">Classifica</a>
+        </div>
+        
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">
+            <a href="#">Highlights</a>
+        </div>
+        
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">
+            <a href="#">Calendario</a>
+        </div>
+        
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">
+            <a href="#">Statistiche</a>
+        </div>
+        
+        <div style="flex-grow: 1;border: solid;border-width: 3px;">
+            <a href="#">Partners</a>
+        </div>
+    </div>
+</body>
+</html>
