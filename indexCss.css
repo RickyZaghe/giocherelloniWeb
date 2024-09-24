@@ -1,0 +1,111 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    background-color: rgb(225, 250, 248);
+    margin: 0; 
+    padding: 0;
+}
+
+.div_logos{
+    text-align: center;
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    padding-top: 1%;
+    background-color: rgb(255, 255, 255);
+    background-image: url("Giocherelloni Web/img/grass.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+    width:auto;
+    border-bottom: 0.5vw;
+    border-style: solid;
+    border-radius: 0vw 0vw 1vw 1vw;
+    border-color: green;
+}
+
+.squad_logo{
+    flex-grow: 1;
+}
+
+.squad_logo img{
+
+    border-radius: 15%;
+    width: 5vw;
+    height: auto;
+
+}
+
+.main_logo{
+    flex-grow: 1; 
+    position: relative;
+
+}
+
+.main_logo img {
+    border-radius: 15%;
+    object-position: 5% ;
+    object-fit: contain;
+    width: 5vw;
+    height: auto;
+}
+
+h1{
+    text-align: center;font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.div_menu{
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.div_menu_options{
+    text-align: center;
+    padding: 1vw;
+    flex-grow: 1;
+    margin: 1vw;
+    border-radius: 0vw;
+    border: solid;
+    box-shadow: 0.5vw 1vw black;
+    
+    font-size: 1.5vw;
+    transition: all .2s ease-in-out; 
+}
+
+.div_menu_options a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.div_menu_options:hover{
+    transform: scale(1.2);
+    transform-origin: top;
+  }
+
+
+.div_partners{
+    text-align: center;
+    margin: 5%;
+    font-size: 2vw;
+}
+
+.div_partners_logo{
+    text-align: center;
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    width: auto;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+.div_partners_logo img{
+    width: 5vw;
+    height: auto;
+    flex-grow: 1;
+    margin: 5%;
+}
