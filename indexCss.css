@@ -3,8 +3,6 @@ body{
     font-weight: 200;
     font-style: bold;
     background-color: rgb(225, 250, 248);
-    margin: 0; 
-    padding: 0;
 }
 
 .div_logos{
@@ -28,9 +26,12 @@ body{
 
 }
 
-h1{
-    text-align: center;font-size: 50px;
-    color: rgb(0, 0, 0);
+.title{
+    text-align: center;
+}
+.title img{
+    width: 80vw;
+    height: auto;
 }
 
 .div_menu{

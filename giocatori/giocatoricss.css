@@ -1,0 +1,73 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    background-color: rgb(225, 250, 248);
+}
+
+
+.title{
+    text-align: center;
+}
+.title img{
+    width: 80vw;
+    height: auto;
+}
+
+.p_our_players{
+    font-size: 3vw;
+}
+
+.div_team{
+    padding: 1%;
+    margin: 2%;
+    border-width: 0.5vw;
+    border-style: solid;
+    border-radius: 5vw;
+    box-shadow: 1vw 1vw gray;
+}
+
+.squad_logo{
+    width: 10vw;
+    height: auto;
+    float: right;
+}
+
+.squad_name{
+    font-size: 5vw;
+    display: inline;
+}
+
+.team_name_logo{
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.div_players_cards{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.player_img{
+    float: left;
+    width: 5vw;
+    height: auto;
+    border-radius: 1vw;
+    margin: 2%;
+}
+
+.player_card{
+    font-size: 1.5vw;
+    padding: 5%;
+    border-width: 0.2vw;
+    border-style: solid;
+    border-radius: 5vw;
+    margin: 1vw;
+    background-color: rgb(185, 208, 206);
+    box-shadow: 0.5vw 0.5vw gray;
+}
