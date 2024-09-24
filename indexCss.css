@@ -13,15 +13,7 @@ body{
     flex-direction: row; 
     align-items: flex-start; 
     padding-top: 1%;
-    background-color: rgb(255, 255, 255);
-    background-image: url("Giocherelloni Web/img/grass.jpg");
-    background-repeat: repeat;
-    background-size: 20%;
-    width:auto;
-    border-bottom: 0.5vw;
-    border-style: solid;
-    border-radius: 0vw 0vw 1vw 1vw;
-    border-color: green;
+    width: auto;
 }
 
 .squad_logo{
@@ -31,23 +23,9 @@ body{
 .squad_logo img{
 
     border-radius: 15%;
-    width: 5vw;
+    width: 10vw;
     height: auto;
 
-}
-
-.main_logo{
-    flex-grow: 1; 
-    position: relative;
-
-}
-
-.main_logo img {
-    border-radius: 15%;
-    object-position: 5% ;
-    object-fit: contain;
-    width: 5vw;
-    height: auto;
 }
 
 h1{
@@ -108,4 +86,20 @@ h1{
     height: auto;
     flex-grow: 1;
     margin: 5%;
+}
+
+.div_copyright{
+    text-align: center;
+    
+    
+}
+
+.div_copyright p{
+    margin: 1vw;
+    border-radius: 0vw;
+    border: solid;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0.5;
 }
