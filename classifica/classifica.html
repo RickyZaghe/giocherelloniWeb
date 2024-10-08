@@ -12,11 +12,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script>
+        // Function to get a cookie by name
+        function getCookie(name) {
+            return document.cookie.split('; ').reduce((r, c) => {
+                const [key, val] = c.split('=');
+                return key === name ? decodeURIComponent(val) : r;
+            }, '');
+        }
 
+        // Check if the user is authenticated
+        if (getCookie('authenticated') !== 'true') {
+            // Redirect to the password page if not authenticated
+            window.location.href = "index.html"; 
+        }
+    </script>
 </head>
 <body >
     <div class="div_home">
-        <a href="../index.html">HOME</a>
+        <a href="../main.html">HOME</a>
     </div>
 
     <div class="title">

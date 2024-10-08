@@ -6,262 +6,63 @@
     <link rel="stylesheet" href="giocatoricss.css">
     <link rel="icon" type="image/x-icon" href="Giocherelloni Web/img/throphy_no_bg.png">
     <title>Giocatori</title>
+    <script>
+        // Function to get a cookie by name
+        function getCookie(name) {
+            return document.cookie.split('; ').reduce((r, c) => {
+                const [key, val] = c.split('=');
+                return key === name ? decodeURIComponent(val) : r;
+            }, '');
+        }
+
+        // Check if the user is authenticated
+        if (getCookie('authenticated') !== 'true') {
+            // Redirect to the password page if not authenticated
+            window.location.href = "index.html"; 
+        }
+    </script>
 </head>
 <body>
     
     <div class="div_home">
-        <a href="../index.html">HOME</a>
+        <a href="../main.html">HOME</a>
     </div>
 
     <div class="title">
         <img src="../Giocherelloni Web/img/titolo.png" alt="GIOCHERELLONI LEAGUE" class="title">
     </div>
+    <body>
+        <div class="container">
+            <h1>I nostri giocatori</h1>
+            <div class="teams">
+                <div class="team" id="team1">
+                    <h2>Esaltati</h2>
+                    <div class="players">
+               
+                    </div>
+                </div>
+                <div class="team" id="team2">
+                    <h2>Golden Ball</h2>
+                    <div class="players">
+               
+                    </div>
+                </div>
+                <div class="team" id="team3">
+                    <h2>Rettiliani</h2>
+                    <div class="players">
+                       
+                    </div>
+                </div>
+                <div class="team" id="team4">
+                    <h2>The Popes</h2>
+                    <div class="players">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
     
-    <p class="p_our_players">I nostri giocatori:</p>
-
-    <div class="div_team">
-
-        <div class="team_name_logo">
-            <p class="squad_name">ESALTATI</p>
-            <img class="squad_logo" src="../Giocherelloni Web/img/esaltati_no_bg.png" alt="Giocherelloni logo">
-        </div>
-
-
-        <div class="div_players_cards">
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="div_team">
-
-        <div class="team_name_logo">
-            <p class="squad_name">GOLDEN BALL</p>
-            <img class="squad_logo" src="../Giocherelloni Web/img/golden_balls_no_bg.png" alt="Golden ball logo">
-        </div>
-
-
-        <div class="div_players_cards">
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="div_team">
-
-        <div class="team_name_logo">
-            <p class="squad_name">RETTILIANI</p>
-            <img class="squad_logo" src="../Giocherelloni Web/img/rettiliani_no_bg.png" alt="rettiliani logo">
-        </div>
-
-
-        <div class="div_players_cards">
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="div_team">
-
-        <div class="team_name_logo">
-            <p class="squad_name">THE POPES</p>
-            <img class="squad_logo" src="../Giocherelloni Web/img/thepopes_no_bg.png" alt="the popes logo">
-        </div>
-
-
-        <div class="div_players_cards">
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-            <div class="player_card">
-                <img src="../Giocherelloni Web/img/placeholder.jpg" alt="" class="player_img">
-                <p>Nome: </p>
-                <p>Cognome: </p>
-                <p>Partite: </p>
-                <p>Goal: </p>
-                <p>Assist: </p>
-            </div>
-        </div>
-
-    </div>
+        <script src="giocatori.js"></script>
 
 </body>
 </html>

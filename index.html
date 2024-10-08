@@ -1,103 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="indexCss.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giocherelloni League</title>
-    <link rel="icon" type="image/x-icon" href="Giocherelloni Web/img/throphy_no_bg.png">
-
-    <!--  IMPORTAZIONE FONT DA GOOGLE FONT  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
+    <title>Password Protected Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 </head>
-<body >
-
-    <div class="title">
-        <img src="Giocherelloni Web/img/titolo.png" alt="Giocherelloni">
+<body>
+    <div class="container">
+        <h1>Enter Password</h1>
+        <input type="password" id="password" placeholder="Password">
+        <button id="submitBtn">Submit</button>
+        <p id="error" class="error-message"></p>
     </div>
-
-
-    <div class="div_logos"  >
-        <div class="squad_logo" style="padding-bottom: 25px;">
-            <a href="#"><img src="Giocherelloni Web/img/esaltati_no_bg.png" alt="Exalted Logo" ></a>
-        </div>
-        
-        <div class="squad_logo">
-            <a href="#"><img src="Giocherelloni Web/img/rettiliani_no_bg.png" alt="Rettiliani Logo"></a>
-        </div>
-        
-        <div class="squad_logo">
-            <a href="#"><img src="Giocherelloni Web/img/throphy_no_bg.png" alt="Giocherelloni League Logo"></a>
-        </div>
-        
-        <div class="squad_logo">
-            <a href="#"><img src="Giocherelloni Web/img/golden_balls_no_bg.png" alt="Golden Ball Logo"></a>
-        </div>
-        
-        <div class="squad_logo">
-            <a href="#"><img src="Giocherelloni Web/img/thepopes_no_bg.png" alt="The Popes Logo"></a>
-        </div>
-    </div>
-
-
-    <div class="div_menu"> <!--Qua il cursore quando passa sull'area occupata dal border, compare il border a fare da "pulsante"-->
-        <div class="div_menu_options">
-            <a href="storia/storia.html">Storia</a>
-        </div>
-
-        <div class="div_menu_options">   <!--Giocatori-->
-            <a href="giocatori/giocatori.html">I Giocherelloni</a>
-        </div>
-
-        <div class="div_menu_options">
-            <a href="regolamento/regolamento.html">Regolamento</a>
-        </div>
-        
-        <div class="div_menu_options">
-            <a href="news/news.html">News</a>
-        </div>
-        
-        <div class="div_menu_options">
-            <a href="classifica/classifica.html">Classifica</a>
-        </div>
-        
-        <div class="div_menu_options">
-            <a href="#">Highlights</a>
-        </div>
-        
-        <div class="div_menu_options">
-            <a href="calendario/calendario.html">Calendario</a>
-        </div>
-        
-        <div class="div_menu_options">
-            <a href="#">Statistiche</a>
-        </div>
-        
-        <div class="div_menu_options">
-            <a href="#">Partners</a>
-        </div>
-    </div>
-
-    <div class="div_partners">
-        <p>I nostri partners</p>
-        <div class="div_partners_logo">
-            <img src="Giocherelloni Web/img/kfc_no_bg.png" alt="KFC">
-            <img src="Giocherelloni Web/img/ingegneriaItalia_no_bg.png" alt="Ingegneria Italia">
-            <img src="Giocherelloni Web/img/nasa_no_bg.png" alt="NASA">
-            <img src="Giocherelloni Web/img/trentinoTrasporti_no_bg.png" alt="TrentinoTrasporti">
-        </div>
-
-    </div>
-
-    <div class="div_copyright">
-        <p>
-            Copyright © 2024 Lega Internazionale Professionisti Giocherelloni League. All rights reserved 
-        </p>
-    </div>
-
+    
+    <script src="script.js"></script>
 </body>
 </html>
