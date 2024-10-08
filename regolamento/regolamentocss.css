@@ -1,0 +1,33 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    background-color: rgb(225, 250, 248);
+}
+
+.title{
+    text-align: center;
+}
+.title img{
+    width: 80vw;
+    height: auto;
+}
+
+.div_home a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+    padding: 1vw;
+    flex-grow: 1;
+    border-radius: 0vw;
+    border: solid;
+    box-shadow: 0.5vw 1vw black;
+    
+    font-size: 1.5vw;
+    transition: all .2s ease-in-out; 
+}
+
+.p_our_story{
+    font-size: 3vw;
+}
